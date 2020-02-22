@@ -1,0 +1,65 @@
+body {
+    background-image: url("paper.jpg");
+}
+
+h1 {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    color: #444;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 51px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+pre {
+    text-align: center;
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 15px;
+}
+
+P {
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 15px;
+}
+
+p.letter {
+    text-align : center;
+}
+
+p.right {
+    text-align : right;
+}
+
+figcaption {
+    text-align : center;
+    font-size: 20px;
+}
