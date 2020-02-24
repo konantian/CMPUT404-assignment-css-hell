@@ -146,3 +146,8 @@ ul{
     font-weight: bold;
 
 }
+
+img {
+	width:200px;
+	border-radius: 90%;
+}
