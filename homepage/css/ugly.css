@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body{
+	font-family: "Comic Sans MS",cursive,sans-serif;
+}
+.introduction::first-letter{ 
+    font-size: 200%;
+	font-family: Verdana;
+}	
+
+body{
+	position: absolute;
+	left:250px;
+	background-image: url("../images/stars.gif"); ;
+}
+
+h1 {
+	color: green;
+	font-family: 'Cormorant Garamond';
+	border-bottom: 3px solid #E65634;
+	border-top: 3px solid #E65634;
+	font-size: 53px;
+	font-weight: 400;
+	line-height: 30px;
+    margin: 0 auto 45px;
+    margin-top: 90px;
+    max-width: 800px;
+    margin-left: 800px;
+	padding: 45px 0;
+	text-align: center;
+}
+p {
+	color:red;
+	font-family: 'Comic Sans MS';
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 36px;
+    border-bottom: 2px solid #E65634;
+    text-align: left;
+}
+
+
+.side_bar{
+    list-style-type: none;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+a#contact{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink; 
+    text-align: center;
+}
+a#introduction{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink; 
+    text-align: center;
+}
+a#Professional_history{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink; 
+    text-align: right;
+}
+a#Attributes_skills{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink; 
+    text-align: center;
+}
+a#Experience{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink;  
+    text-align: left;
+}
+
+a#important{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink; 
+    text-align: center;
+}
+
+a#References{
+	font-size: 140%;
+	font-family: "Droid Serif";
+    color:pink; 
+    text-align: center; 
+}
+figcaption{
+	color:#fff;
+}
+.side_bar li a {
+    display: block;
+    color: pink;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul{
+	color: red;
+	font-family: 'Comic Sans MS';
+	font-size: 15px;
+	font-weight: 300;
+    line-height: 36px;
+    text-align: left;
+	border-bottom: 2px solid #E65634;
+}
+
+/* Change the link color on hover */
+.side_bar li a:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+@font-face {
+      font-family: woff2;
+      src: local('myfont.woff2');
+    }
+
+.menu{
+	color:red;
+	font-family: woff2,serif;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    margin-left: 50px;
+    float:left;
+    list-style-type: none;
+}
+
+.menu li a {
+    display: block;
+    color:pink; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 140%;
+    font-family: "Droid Serif";
+    font-weight: bold;
+
+}
+
+
+p.refer {
+    text-align:right;
+}
+
+ul.Experience {
+    text-align: center;
+}
+
+ul.Education {
+    text-align: right;
+}
+
+img {
+    margin-left:200px;
+}
